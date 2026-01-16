@@ -3,7 +3,7 @@ import socials from "../utilities/social.icons";
 
 function Footer() {
   return (
-    <section className="bg-gray-950 text-white max-md:text-center py-8 px-16 flex flex-col gap-8">
+    <footer className="bg-gray-950 text-white max-md:text-center py-8 px-16 flex flex-col gap-8">
       <h1 className="text-2xl">
           <span className="text-6xl font-semibold">V</span>ELORA
         </h1>
@@ -49,7 +49,7 @@ function Footer() {
         </div>
       </div>
       <p className="tracking-[0.25rem] md:text-center">© 2026 Velora. All rights reserved.</p>
-    </section>
+    </footer>
   );
 }
 

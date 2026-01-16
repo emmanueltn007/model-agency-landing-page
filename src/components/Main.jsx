@@ -6,7 +6,7 @@ import CTA from "./CTA";
 
 function Main () {
   return (
-    <main className="text-white">
+    <main className="text-white flex flex-col gap-16">
       <Hero />
       <ServicesAndWhyWorkWithUs />
       <Portfolio />
