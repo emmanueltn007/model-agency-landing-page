@@ -4,7 +4,7 @@ function Testimonials () {
   return (
     <section className="flex flex-col gap-8 py-8 px-16">
       <h2 className="text-3xl tracking-[0.5rem] md:text-center">
-        What Our Clients Say About Us
+        What Clients Say
       </h2>
       <div className="grid md:grid-cols-3 gap-4">
         {clients.map(({ client, avatar, testimonial }) => {
