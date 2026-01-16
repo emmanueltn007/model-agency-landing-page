@@ -5,16 +5,16 @@ function Header() {
     <header className="text-white flex justify-between items-center py-8 px-16">
       <div>
         <h1 className="text-2xl">
-          <span className="text-4xl font-semibold">V</span>ELORA
+          <span className="text-6xl font-semibold">V</span>ELORA
         </h1>
       </div>
-      <nav>
+      <nav className="max-md:hidden">
         <ul className="flex gap-8">
           {navItems.map((item) => {
             return (
               <li
                 key={item}
-                className="cursor-pointer font-semibold relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-white hover:after:w-full after:transition-all after:duration-300 after:ease-in-out"
+                className="text-lg md:text-xl tracking-[0.25rem] cursor-pointer font-semibold relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-white hover:after:w-full after:transition-all after:duration-300 after:ease-in-out"
               >
                 {item}
               </li>
