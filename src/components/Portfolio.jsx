@@ -5,9 +5,9 @@ function Portfolio () {
     <section className="flex flex-col gap-8 py-8 px-16">
       <div className="text-center flex flex-col gap-4">
         <h2 className="text-3xl tracking-[0.5rem]">
-          More Than Just Photos
+          A Thoughtful Creative Process
         </h2>
-        <p className="text-lg md:text-xl">
+        <p className="text-lg md:text-xl tracking-[0.25rem]">
           We focus on authenticity - guiding you, not forcing you.
           The goal is to capture who you are, not who you're trying to be.
         </p>

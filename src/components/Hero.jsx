@@ -8,7 +8,7 @@ function Hero () {
         <h1 className="text-6xl tracking-[0.5rem]">
           More Than Just Photos
         </h1>
-        <p className="text-lg md:text-xl">
+        <p className="text-lg md:text-xl tracking-[0.25rem]">
           This is storytelling through light, shadow, and emotion.
           Every image is crafted to feel real, raw, and timeless.
         </p>
